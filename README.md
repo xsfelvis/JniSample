@@ -1,0 +1,2 @@
+# JniDemo
+Jni Study
