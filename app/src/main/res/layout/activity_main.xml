@@ -16,12 +16,12 @@
         android:id="@+id/btnJni1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jni1"/>
+        android:text="静态-Jni1"/>
     <Button
         android:id="@+id/btnJni2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jni2"/>
+        android:text="静态-Jni2"/>
 
     <TextView
         android:id="@+id/tvShowInfo"

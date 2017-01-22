@@ -11,4 +11,5 @@ public class NDKUtils {
         System.loadLibrary("xsfJni");   //defaultConfig.ndk.moduleName
     }
     public native String  getVipString();
+    public native String  generateKey(String name);
 }

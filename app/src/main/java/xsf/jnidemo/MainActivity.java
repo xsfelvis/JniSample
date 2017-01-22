@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnJni2:
                 //传入key拿到加密后的key
+                tvShowInfo.setText(String.format("输入vip,加密输出为:\n %s",jniUtil.generateKey("vip")));
                 break;
         }
 

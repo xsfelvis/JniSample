@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_xsf_jnidemo_NDKUtils_getVipString
   (JNIEnv *, jobject);
 
+/*
+ * Class:     xsf_jnidemo_NDKUtils
+ * Method:    generateKey
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_xsf_jnidemo_NDKUtils_generateKey
+  (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
