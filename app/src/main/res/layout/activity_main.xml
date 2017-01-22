@@ -22,6 +22,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="静态-Jni2"/>
+    <Button
+        android:id="@+id/btnJni3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态-Jni1"/>
+
 
     <TextView
         android:id="@+id/tvShowInfo"

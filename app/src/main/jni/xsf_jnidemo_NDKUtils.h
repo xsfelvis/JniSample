@@ -23,6 +23,16 @@ JNIEXPORT jstring JNICALL Java_xsf_jnidemo_NDKUtils_getVipString
 JNIEXPORT jstring JNICALL Java_xsf_jnidemo_NDKUtils_generateKey
   (JNIEnv *, jobject, jstring);
 
+/*
+ * Class:     xsf_jnidemo_NDKUtils
+ * Method:    dynamicGenerateKey
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+/*JNIEXPORT jstring JNICALL Java_xsf_jnidemo_NDKUtils_dynamicGenerateKey
+  (JNIEnv *, jobject, jstring);*/
+//动态调用Jni
+JNIEXPORT jstring JNICALL native_dynamic_key(JNIEnv *env, jobject obj, jstring name);
+
 #ifdef __cplusplus
 }
 #endif

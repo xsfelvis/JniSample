@@ -8,7 +8,7 @@
 #define JNI_EASY_ENCRYPT_H
 
 #define KEY_NAME_SIZE  (6)
-#define KEY_SIZE (129)
+#define KEY_SIZE (20)
 char * generateKeyRAS(char* name);
 
 #endif //JNI_EASY_ENCRYPT_H
