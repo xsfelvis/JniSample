@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    //测试feature分支
     private Button btnJni1, btnJni2, btnJni3;
     private TextView tvShowInfo;
     private NDKUtils jniUtil;
